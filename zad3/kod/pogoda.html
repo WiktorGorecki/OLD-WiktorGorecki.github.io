@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+	<meta charset="utf-8">
+	<head>
+		<style>
+		
+		#fixed {
+		position: fixed;
+ 		top: 10px;
+ 		left: 10px;
+		}
+
+		#listadomenu {
+ 		display: block;
+		width: 60px;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		}
+		
+		body {
+		background-color: #a5a3a8;
+		}
+		
+		#nawigacja {
+		background-color: #726f77;
+		text-align: center;
+		}
+
+		#duzytekst {
+		font-size: 30px
+		}
+
+
+		a.przycisk {
+		text-decoration: none;
+		color: white;
+		}
+		u.przycisk {
+		text-decoration: none;
+		color: white;
+		}
+		a.bialyTekst {
+		text-decoration: none;
+		color: white;
+		}
+		table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+		}
+		.button {
+		display:block;
+		padding: 14px 40px;
+		font-size: 24px;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		outline: none;
+		color: aqua;
+		background-color: aqua;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 9px #999;
+		}
+
+		.button1 {
+			background-color: #726f77; 
+			color: black; 
+			border: 2px solid black;
+			display: block;
+			padding: 14px 45px;
+		}
+
+		.button1:hover {
+			background-color: #a5a3a8;
+			color: white;
+		}
+		.button1:active {
+		background-color: #3f3e42;
+		box-shadow: 0 5px #666;
+		transform: translateY(4px);
+		}
+		</style>
+
+		<title>Podr�e</title>
+	</head>
+	<body>
+		<header
+			<p id="duzytekst">Krak�w</p>
+		</header>
+		<nav id="nawigacja">
+			<a href="https://tm1.edu.pl/">Strona mojej szko�y<a>             <a href="../index">Strona g��wna<a>
+		</nav>
+			<div class="fixed">
+				<ul id="listadomenu">
+					<li><button class="button1"><a href="kod/info.html">Informacje o Krakowie</a></button></li>
+					<li><button class="button1"><a href="kod/zabytki.html">Zabytki Krakowa</a></button></li>
+					<li><button class="button1"><a href="kod/transport.html">Dojazd i komunikacja miejska</a></button></li>
+					<li><button class="button1"><a href="kod/pogoda.html">Pogoda w Krakowie</a></button></li>
+					<li><button class="button1"><a href="kod/ciekawostki.html">Ciekawostki o Krakowie</a></button></li>
+				</ul>
+			<div>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pl">
+	<meta charset="utf-8">
+	<head>
+		<style>
+		
+		#tekst {
+		width: 200px;
+		height: 400px;
+		float: left;
+		}
+
+		#fixed {
+		position: fixed;
+ 		top: 10px;
+ 		left: 10px;
+		}
+
+		#listadomenu {
+ 		display: block;
+		width: 60px;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		}
+		
+		body {
+		background-color: #a5a3a8;
+		}
+		
+		#nawigacja {
+		background-color: #726f77;
+		text-align: center;
+		}
+
+		#duzytekst {
+		font-size: 30px
+		}
+
+
+		a.przycisk {
+		text-decoration: none;
+		color: white;
+		}
+		u.przycisk {
+		text-decoration: none;
+		color: white;
+		}
+		a.bialyTekst {
+		text-decoration: none;
+		color: white;
+		}
+		table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+		}
+		.button {
+		display:block;
+		padding: 14px 40px;
+		font-size: 24px;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		outline: none;
+		color: aqua;
+		background-color: aqua;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 9px #999;
+		}
+
+		.button1 {
+			background-color: #726f77; 
+			color: black; 
+			border: 2px solid black;
+			display: block;
+			padding: 14px 45px;
+		}
+
+		.button1:hover {
+			background-color: #a5a3a8;
+			color: white;
+		}
+		.button1:active {
+		background-color: #3f3e42;
+		box-shadow: 0 5px #666;
+		transform: translateY(4px);
+		}
+		</style>
+		<title>Podr�e</title>
+	</head>
+	<body>
+		<header
+			<p id="duzytekst">Krak�w</p>
+		</header>
+		<nav id="nawigacja">
+			<a href="https://tm1.edu.pl/">Strona mojej szko�y<a>             <a href="../index">Strona g��wna<a>
+		</nav>
+			<div class="fixed">
+				<ul id="listadomenu">
+					<li><button class="button1"><a href="zadanie3.html">Informacje o Krakowie</a></button></li>
+					<li><button class="button1"><a href="kod/zabytki.html">Zabytki Krakowa</a></button></li>
+				</ul>
+			<div>
+			<div class="tekst">
+				<b>Kraków</b> (łac. Cracovia, niem. Krakau, jid. ‏קראָקע Kroke‎) – miasto na prawach powiatu położone w południowej Polsce nad Wisłą, drugie co do liczby mieszkańców i powierzchni miasto kraju, formalna stolica Polski do 1795 r. i miasto koronacyjne oraz nekropolia królów Polski, od 1000 r. nieprzerwanie stolica diecezji krakowskiej (jednej z pięciu w ówczesnej Polsce), a od 1925 archidiecezji i metropolii. Kraków uzyskał lokację miejską przed 1228 rokiem, ponowna lokacja Krakowa w 1257 r. od odzyskania niepodległości w 1918 r. miasto wojewódzkie (od 1998 r. siedziba władz województwa małopolskiego), jest także centralnym ośrodkiem metropolitalnym aglomeracji krakowskiej i Krakowskiego Obszaru Metropolitalnego. Kraków uznawany jest za stolicę historycznej Małopolski. Leży na obszarze Bramy Krakowskiej, Niecki Nidziańskiej i Pogórza Zachodniobeskidzkiego.
+			</div>
+			<img src="./grafika/a" alt="zdjęcie Krakowa">
+<!-- Niestety zdjęcie nie chce się załadować, mimo że podałem poprawną ścieżkę. Na moim komputerze Polskie znaki nie działały, choć dodałem znacznik <meta charset="utf-8"> -->
+	</body>
+</html>
