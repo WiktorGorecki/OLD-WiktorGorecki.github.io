@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Co to RWD?
+        </title>
+          <link href="styles/style.css" type="text/css" rel="stylesheet">
+        <style>
+		/* https://webkod.pl/kurs-css/lekcje/dzial-4/rozwijane-poziome-menu-css# */
+        ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+	  
+	  ol {
+        list-style-type:none;
+      }
+	  
+			.popup {
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+			}
+			.popup .popuptext {
+			visibility: hidden;
+			width: 160px;
+			background-color: #555;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 8px 0;
+			position: absolute;
+			z-index: 1;
+			bottom: 125%;
+			left: 50%;
+			margin-left: -80px;
+			}
+			.popup .popuptext::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			margin-left: -5px;
+			border-width: 5px;
+			border-style: solid;
+			border-color: #555 transparent transparent transparent;
+			}
+			.popup .show {
+			visibility: visible;
+			-webkit-animation: fadeIn 1s;
+			animation: fadeIn 1s
+			}
+			
+			@-webkit-keyframes fadeIn {
+			from {opacity: 0;}
+			to {opacity: 1;}
+			}
+			
+			@keyframes fadeIn {
+			from {opacity: 0;}
+			to {opacity:1 ;}
+			}
+			
+			
+	  
+	  
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <h1 style="text-align:center; font-size:40px;">RWD</h1>
+            </div>
+        </header>
+        <nav>
+            <div id="nav">
+                <a style="color: white" href="https://wiktorgorecki.github.io/">Wybór zadań</a>
+            </div>
+        </nav>
+        <article>
+		<table style="width:100%">
+			<tr>
+				<th class="relatywna" style="width: 200px;"><a href="Coto.html"><button class="button1">Co to RWD?</button></a>
+					<a href="Corobi.html"><button class="button1">Poradnik</button></a>
+					<a href="https://whatismyviewport.com/"><button class="button1">Sprawdź swój viewpoint</button></a>
+					<!--<a href="Quiz.html"><button class="button1">Quiz</button></a>--></th>
+					<th class="tekst">  </th>
+				<th>
+				<div class="popup" onclick="WyswietlPopup()">Kliknij mnie, aby uzyskać pomoc
+				<span class="popuptext" id="Pomoc">Najedź na poniższe teksty, aby otrzymać odpowiedzi.</span>
+				</div>
+			<ol>
+			<li><p>Co to @media?</p>
+				<ul>
+			<li>Reguła @media jest używana w zapytaniach o media w celu zastosowania różnych stylów dla różnych typów mediów / urządzeń.<br/>
+				Zapytania o media można wykorzystać do sprawdzenia wielu rzeczy, takich jak:<br/>
+				<br/>
+				-szerokość i wysokość okna<br/>
+				-szerokość i wysokość urządzenia<br/>
+				-orientacja<br/>
+				-rozdzielczość<br/>
+			
+			
+				</li>
+				</ul>
+			</li>
+
+			<li><p>Co zrobić, aby zdjęcie było responsywne?</p>
+				<ul>
+				<li>Aby zdjęcie było responsywne, należy określić jego maksymalną długość i wysokość.<br/> Aby to zrobić należy dodać w stylach: max-width oraz max-height, co zapobiegnie pokazywaniu tylko kawałka grafiki na małych wyświetlaczach.<br/> Height: auto i width: auto ustawia wyskość i szerokość na automatyczną</li>
+				</ul>
+			</li>
+
+			<li><p>Wielkość ekranu, a rozmiar czcionki</p>
+				<ul>
+				<p>-Liczba przed vw odnosi się do procent szerokości wyświetlacza, np. 5vw to 5%. <br/>-Liczba przed vh odnosi się do procent wysokości wyświetlacza, np. 10vh to 10%.<br/>-Liczba przed Vmax odnosi się do procent maksymalnych wymiarów, a przed Vmin do procent minimalnych wymiarów.</p></ul>
+				</li>
+				</ul>
+			</li>
+			</ol></th>
+			</tr>
+		</table>
+        </article>
+        <footer>
+            <div id="footer">
+                Autor: Wiktor Górecki<br/>
+				Strona stworzona na ekranie 27" 2560 x 1440.
+            </div>
+        </footer>
+		<script>
+			// Kiedy użytkownik naciśnie diva, popup się pojawi.
+			function WyswietlPopup() {
+			var popup = document.getElementById("Pomoc");
+			popup.classList.toggle("show");
+			}
+			</script>
+	
+    </body>
+
+</html> 
