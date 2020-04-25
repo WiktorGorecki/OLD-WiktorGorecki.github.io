@@ -1,0 +1,24 @@
+I. Słownik pojęć
+	1. Organizator - (Imię i Nazwisko)
+	2. Aplikujący - osoba wyrażająca chęć skorzystania z usług Organizatora
+	3. Uczestnik - osoba korzystająca z usług Organizatora
+	4. Prowadzący - osoba wykwalifikowana prowadząca zajęcia
+II. Postanowienia ogólne
+	1. Celem zajęć jest przekazanie Uczestnikom wiedzy dotyczącej pisania stron WWW w języku Bootstrap
+III. Zgłoszenie chęci uczestnictwa
+	1. Chęć uczestnictwa kursach prowadzonych przez Organizatora należy zgłosić za pośrednictwem specjalnego formularza zapisukursach prowadzonych przez
+	   Organizatora należy zgłosić za pośrednictwem specjalnego formularza zapisu
+	2. Organizator zobowiązuje się wysłać Aplikującego umowę na wskazany w formularzu adres email w terminie 7 dni roboczych od otrzymania zgłoszenia
+	3. Wypełnienie formularza na stronie internetowej nie stanowi potwierdzenia nabycia usługi, służy jedynie zarezerwowaniu miejsca do czasu podpisania umowy
+	4. Umowa zostaje uznana z chwilą zaksięgowania zaliczki na rachunku bankowym Organizatora
+IV. Płatności
+	1. Opłatę za dany kurs należy wpłacić na rachunek bankowy Organizatora.
+	2. Przekroczenie terminu płatności może spowodować naliczanie odsetek lub zawieszenie uczestnictwa w Kursie
+V. Kody promocyjne i rabatowe
+	1. Kody rabatowe są rabatami kwotowymi udzielanymi przez Organizatora
+	2. Kod uaktywnia rabat po wpisaniu w specjalne pole na formularzu zapisu na stronie internetowej Organizatora
+	3. Kody rabatowe nie podlegają zamianie na równowartość pieniężną
+	4. W przypadku rozwiązania umowy, w której kwota wpłaty objęta została rabatem kwotowym, podstawą do zwrotu jest kwota wpłacona przez Zgłaszającego
+VII. Odpowiedzialność
+	1. Za szkody materialne wyrządzone przez niepełnoletniego Uczestnika Kursu odpowiada jego Opiekun.
+	2. Za szkody materialne wyrządzone przez pełnoletniego Uczestnika Kursu odpowiada Uczestnik.
